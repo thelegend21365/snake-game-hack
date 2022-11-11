@@ -1,16 +1,16 @@
 //snake game hacking script
 
 function getFoodPosition_x() {
-    console.log(ax)
+    return ax
 }
 function getFoodPosition_y() {
-    console.log(ay)
+    return ay
 }
 function getSnakePosition_x() {
-    console.log(px)
+    return px
 }
 function getSnakePosition_y() {
-    console.log("hello")
+    return py
 }
 function tailSize(tail_size) {
     tail = tail_size
@@ -26,18 +26,6 @@ function snakePosition_x(snake_position_x) {
 function snakePosition_y(snake_position_y) {
     py = snake_position_y;
     return py;
-}
-function snakeMovementAutomation_x(x_velocity) {
-    while (true) {
-    xv = x_velocity;
-    return xv;
-    }
-}
-function snakeMovementAutomation_y(y_velocity) {
-    while (true) {
-    yv = y_velocity;
-    };
-    return yv;
 }
 function foodPosition_x(food_position_x) {
     ax = food_position_x
@@ -69,5 +57,4 @@ function changeDirection_y(y_velocity) {
         yv = -1
     }
 }
-
-    
+// Thank you for using my script
